@@ -9,3 +9,7 @@ edition = "2018"
 [dependencies]
 tokio = {"version"= "1", features=["full"]}
 public-ip = "0.2"
+yaml-rust = "0.4"
+ctrlc = "3.1.9"
+dns-lookup = "1.0.6"
+ureq = "2.1.1"

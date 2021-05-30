@@ -1,5 +1,7 @@
 # README
 
+Very simple rust training thingy. 
+
 build
 
 > docker build -t rust .
@@ -8,5 +10,12 @@ run
 
 > docker run -it rust
 
+## Usage
 
-Project halted because joker.com api is only for resellers.
+rename credentials.yaml.template to credentials.yaml
+
+Change it to contain your own  username,password and domain
+
+build
+
+run
